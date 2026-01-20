@@ -32,7 +32,7 @@ This causes delays, confusion, and no proper tracking.
 - Internet connection is needed
 - Basic smartphone/web access is available
 
-## 📁 Repository Structure
+##  Repository Structure
 - `docs/` → MoSCoW, project documentation  
 - `wireframes/` → Figma wireframe screenshots  
 - `architecture/` → Architecture diagram  
@@ -43,4 +43,14 @@ This project follows GitHub Flow:
 - `main` branch contains stable code
 - Feature updates are done in separate branches like `feature/*`
 - Changes are merged back into `main` after completion
+  
+##  Quick Start – Local Development (Docker)
+
+### 1) Build Docker image
+```bash
+docker build -t campusbuddy-se .
+### 2) Run Docker container
+```bash
+docker run -p 8080:80 campusbuddy-se
+
 
