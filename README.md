@@ -37,3 +37,10 @@ This causes delays, confusion, and no proper tracking.
 - `wireframes/` → Figma wireframe screenshots  
 - `architecture/` → Architecture diagram  
 - `screenshots/` → Proof screenshots (Docker/GitHub working)
+  
+##  Branching Strategy
+This project follows GitHub Flow:
+- `main` branch contains stable code
+- Feature updates are done in separate branches like `feature/*`
+- Changes are merged back into `main` after completion
+
