@@ -49,8 +49,8 @@ This project follows GitHub Flow:
 ### 1) Build Docker image
 ```bash
 docker build -t campusbuddy-se .
-### 2) Run Docker container
-```bash
 docker run -p 8080:80 campusbuddy-se
+
+
 
 
