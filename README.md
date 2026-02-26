@@ -48,12 +48,9 @@ This project follows GitHub Flow:
 
 ### 1) Build Docker image
 ```bash
-docker build -t campusbuddy-se .
-docker run -p 8080:80 campusbuddy-se
 
----
 
-## 🏗️ Software Design
+### 🏗️ Software Design
 
 The CampusBuddy system follows a layered client–server architecture to ensure scalability, modularity, and maintainability. The design separates the presentation layer, application logic, data storage, and deployment infrastructure.
 
