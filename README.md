@@ -51,6 +51,52 @@ This project follows GitHub Flow:
 docker build -t campusbuddy-se .
 docker run -p 8080:80 campusbuddy-se
 
+---
 
+## 🏗️ Software Design
+
+The CampusBuddy system follows a layered client–server architecture to ensure scalability, modularity, and maintainability. The design separates the presentation layer, application logic, data storage, and deployment infrastructure.
+
+### 📌 High-Level Architecture
+
+The system consists of:
+
+- **Frontend Layer** (Student, Warden, Maintenance Interfaces)
+- **Backend API Layer** (Authentication, Complaint Management, Notification Modules)
+- **Database Layer** (MySQL for structured data)
+- **Cloud Storage** (For complaint image uploads)
+- **Infrastructure Layer** (Docker-based containerized deployment)
+
+📎 Architecture Diagram:  
+`docs/design/architecture.png`
+
+---
+
+### 🎨 User Interface Design
+
+The user interface was designed using Figma and focuses on:
+
+- Consistent layout and button styles  
+- Clear form inputs and labels  
+- Status visibility (Pending, In Progress, Completed)  
+- Role-based dashboards  
+- Mobile-friendly vertical layout  
+
+📎 UI Screens:  
+`docs/design/ui-screens.png`
+
+---
+
+### ⚙️ Key Design Decisions
+
+1. Separation of frontend and backend for low coupling.
+2. Modular backend structure for maintainability.
+3. Role-Based Access Control (RBAC) for security.
+4. Docker containerization for consistent deployment.
+5. Cloud storage for scalable complaint image handling.
+
+These decisions improve system scalability, security, and long-term maintainability.
+
+---
 
 
