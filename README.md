@@ -68,7 +68,7 @@ The system consists of:
 - **Infrastructure Layer** (Docker-based containerized deployment)
 
 📎 Architecture Diagram:  
-`docs/design/architecture.png`
+`docs/design/UpdatedArchitectureDiagram.png`
 
 ---
 
